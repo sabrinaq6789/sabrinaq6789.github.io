@@ -1,0 +1,33 @@
+h1, h3 {
+    color: lightblue;
+    font-family:"Lobster Two";
+    text-align:center;
+}
+p, ul {
+    color:pink;
+    font-family: sans-serif;
+}
+a:link {
+    color:lightblue;
+}
+a:hover {
+    color:black;
+}
+.unicorn {
+    background-color:white;
+    padding:20px;
+}
+.blue {
+    background-color:white;
+}
+.navbar {
+    background-color: lightblue;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
