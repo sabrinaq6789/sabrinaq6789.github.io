@@ -1,33 +1,28 @@
 h1, h3 {
-    color: lightblue;
-    font-family:"Lobster Two";
-    text-align:center;
-}
-p, ul {
-    color:pink;
-    font-family: sans-serif;
+    font-family: Merriweather;
+    text-decoration: underline;
+    color: firebrick;
 }
 a:link {
-    color:lightblue;
+color: black;
 }
 a:hover {
-    color:black;
+    color: blue;
 }
-.unicorn {
-    background-color:white;
-    padding:20px;
+li {
+    color: cadetblue;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
-.blue {
-    background-color:white;
+p {
+    font-family: 'Times New Roman', Times, serif;
 }
-.navbar {
-    background-color: lightblue;
-    display:flex;
-    flex-direction:row;
-    justify-content: space-between;
-}
-.container {
+.fav-players {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    flex-wrap:wrap;
+    width:100%;
+}
+
+.fav-players img{
+    height: 175px;
 }
